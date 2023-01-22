@@ -18,3 +18,46 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+img {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+p {
+  font-size: 20px;
+  margin-top: 5px;
+}
+input {
+  border-color: blue;
+  width: 300px;
+}
+
+p span {
+  color: black;
+  font-weight: bold;
+}
